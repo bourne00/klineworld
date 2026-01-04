@@ -1,4 +1,3 @@
-import "@napi-rs/canvas"; // 让 Vercel 打包这个依赖
 import DOMMatrixPolyfill from "@thednp/dommatrix";
 
 const polyfill = DOMMatrixPolyfill as unknown as typeof globalThis.DOMMatrix;
